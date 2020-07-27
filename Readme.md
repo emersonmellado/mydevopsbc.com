@@ -16,7 +16,7 @@
     - Created the local app
     - Tested it locally
     - eb init
-        - eb init -p python-3.6 mydevopsbc --region us-west-2
+    - eb init -p python-3.6 mydevopsbc --region us-west-2 --profile erm
     - Installed EB cli
         - pip install awsebcli --upgrade
     - Deploy OK
