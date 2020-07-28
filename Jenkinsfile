@@ -3,11 +3,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "THIS should come from a PR"'
-                sh '''
-                    echo "Multiline shell steps works too"
-                    ls -lah
-                '''
+                sh 'echo "Deploying to eb"'
+                sh 'eb init -p python-3.6 mydevopsbc --region us-west-2 --profile erm'
+                sh 'eb deploy --profile erm'
             }
         }
     }
