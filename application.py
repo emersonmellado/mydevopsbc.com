@@ -9,7 +9,7 @@ header_text = '''
     <html>\n<head> <title>EB Flask Test</title> </head>\n<body>'''
 instructions = '''
     <p>
-    <h1 style="padding: 20px; background-color: red; color: white">Hello people!</h1>
+    <h1 style="padding: 20px; background-color: gray; color: white">Hello people!</h1>
     <br/>
     <h1>Imagine something really cool here :)</h1>
     <hr/>
