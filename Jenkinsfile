@@ -4,6 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "This is our BUILD stage"
+                sh 'ls -la'
             }
         }
         stage('Test') {
